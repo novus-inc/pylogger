@@ -1,27 +1,6 @@
-# python-repository-template
+# pylogger
 
-A repository to be used for any Python project.
-
-## 各repositoryごとに修正するところ
-
-* [README.md](./README.md): それぞれのrepositoryにあった説明に変える．
-* [rename_me](./rename_me): sourceを入れるフォルダ．repositoryに応じて名前を変える．
-* [setup.py](./setup.py): `name`，`description`，`url` を上記の source フォルダ名などに応じて変える．
-* [docker-compose.yml](./docker-compose.yml): servicesの`python-template`およびコンテナ名の`python_template`を変更する．volumesの`./reaname_me:/var/app/rename_me`内の`rename_me`を上のrename_meフォルダと同じ名前に変える．
-* [Makefile](./Makefile): `python-template`となっているところをdocker-compose.ymlでの変更に応じて変更する．
-
-```shell
-git grep rename
-git grep template
-```
-
-などで調べるとよい．
-
-NOTE: このリポジトリ自体はreleaseの概念はないので，`release`のみを用意している．
-
-以下はそのまま流用可能．
-
-***
+A logger for Python projects.
 
 ## 開発
 
@@ -141,13 +120,18 @@ GitHub Actionsのconfigを[`.github/workflows`](./.github/workflows)に記述し
 ```shell
 .
 ├── Dockerfile
+├── LICENSE
 ├── Makefile
 ├── README.md
+├── coverage.xml
 ├── docker-compose.yml
 ├── main.py
 ├── poetry.lock
+├── pylogger
 ├── pyproject.toml
+├── pytest.log
 ├── rename_me
+├── samples
 ├── setup.cfg
 ├── setup.py
 └── tests

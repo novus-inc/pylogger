@@ -1,8 +1,9 @@
 [tool.poetry]
-name = "python-repository-template"
+name = "pylogger"
 version = "0.0.1"
-description = "A repository to be used for any Python project"
+description = "A logger for Python projects."
 authors = ["Novus, Inc."]
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.7"
