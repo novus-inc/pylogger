@@ -123,13 +123,11 @@ GitHub Actionsのconfigを[`.github/workflows`](./.github/workflows)に記述し
 ├── LICENSE
 ├── Makefile
 ├── README.md
-├── coverage.xml
 ├── docker-compose.yml
 ├── main.py
 ├── poetry.lock
 ├── pylogger
 ├── pyproject.toml
-├── pytest.log
 ├── rename_me
 ├── samples
 ├── setup.cfg
